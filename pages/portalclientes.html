@@ -38,11 +38,11 @@
 
 
 
-    <main>
-        <h1 class="titulo">Ingreso a clientes</h1>
+    <main class="contain">
+        
         <section class="clientes">
             <form>
-                <h3 class="clientes__titulo">Ingreso</h3>
+                <h1 class="clientes__titulo">Ingreso a Clientes</h1>
                 <input class="clientes__input" type="text" name="usuario" value="usuario" id="user"
                     placeholder="Usuario">
                 <input class="clientes__input" type="text" name="Contraseña" id="pass" placeholder="contraseña">
@@ -77,10 +77,10 @@
             <h3 class="tarjeta__titulo">Newsletter</h3>
             <p class="tarjeta__texto">Suscribase para recibir todas las novedades de InjectNow.</p>
             <form class="newsletter">
-                <input class="newsletter__nombre" type="text" name="nombre" placeholder="Nombre*" id="newsletter">
-                <input class="newsletter__nombre" type="text" name="apellido" placeholder="Apellido*" id="newsletter">
+                <input class="newsletter__nombre" type="text" name="nombre" placeholder="Nombre*" id="newsletter" required>
+                <input class="newsletter__nombre" type="text" name="apellido" placeholder="Apellido*" id="newsletter" required>
                 <input class="newsletter__email" type="email" name="email" placeholder="Casilla de email*"
-                    id="newsletter">
+                    id="newsletter" required>
                 <input type="submit" value="Enviar"></input>
             </form>
         </div>

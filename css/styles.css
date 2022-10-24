@@ -16,8 +16,6 @@ ol {
 }
 
 
-
-
 a {
     text-decoration: none;
 }
@@ -65,7 +63,7 @@ header nav ul li a {
 
 header nav ul li:hover {
     transform: translateY(-5px);
-}
+    }
 
 /* ----------main---------- */
 
@@ -264,13 +262,12 @@ footer {
     justify-content: space-evenly;
     align-items: baseline;
     background-color: grey;
-
-}
+    padding-bottom: 10px;
+    }
 
 .tarjeta {
     width: 370px;
     height: 150px;
-    /* margin: 15px; */
     padding: 10px;
 
 }
@@ -430,12 +427,15 @@ footer {
 
 
 /* ----------contacto.html---------- */
-
+.contain{
+    display: flex;
+    justify-content: center;
+}
 .contacto {
     width: 90%;
+    max-width: 750px;
     height: fit-content;
     padding: 20px 30px;
-    margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: #1745a3;
@@ -444,12 +444,7 @@ footer {
     color: white;
 }
 
-@media (min-width:1200px) {
-    .contacto {
-        width: fit-content;
 
-    }
-}
 
 .contacto__titulo {
     text-align: center;
@@ -503,6 +498,7 @@ footer {
 }
 
 /* ----------portalclientes.html---------- */
+
 .titulo {
     text-align: center;
     font-size: 3rem;
@@ -515,9 +511,9 @@ footer {
 
 .clientes {
     width: 90%;
+    max-width: 467px;
     height: fit-content;
     padding: 20px 30px;
-    margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: #1745a3;
@@ -572,11 +568,4 @@ footer {
 .clientes__link {
     color: white;
 
-}
-
-@media (min-width:1200px) {
-    .clientes {
-        width: fit-content;
-
-    }
 }
