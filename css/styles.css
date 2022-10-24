@@ -429,7 +429,7 @@ footer {
 /* ----------contacto.html---------- */
 .contain{
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 .contacto {
     width: 90%;
@@ -508,7 +508,11 @@ footer {
     font-weight: 4;
 
 }
-
+.contain2{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
 .clientes {
     width: 90%;
     max-width: 467px;
@@ -519,8 +523,6 @@ footer {
     background-color: #1745a3;
     box-shadow: 7px 13px 37px black;
     font-family: kollektif;
-
-
 }
 
 .clientes__titulo {
