@@ -137,7 +137,7 @@ header nav ul li:hover {
 }
 
 .caja3:hover {
-    background-color: #1745a3;
+    background-color: rgb(0, 74, 173);
 }
 
 .portada2 {
@@ -172,7 +172,7 @@ header nav ul li:hover {
 }
 
 .estiloLista:hover {
-    color: #1745a3;
+    color: rgb(0, 74, 173);
 
 }
 
@@ -436,7 +436,7 @@ footer {
     padding: 20px 30px;
     margin-top: 50px;
     margin-bottom: 100px;
-    background-color: #1745a3;
+    background-color: rgb(0, 74, 173);
     box-shadow: 7px 13px 37px black;
     font-family: kollektif;
     color: white;
@@ -488,7 +488,7 @@ footer {
 .contacto__boton:hover {
     transform: scale(1.03);
     box-shadow: 7px 13px 37px black;
-    color: #1745a3;
+    color: rgb(0, 74, 173);
 }
 
 .contacto__label {
@@ -517,7 +517,7 @@ footer {
     padding: 20px 30px;
     margin-top: 50px;
     margin-bottom: 100px;
-    background-color: #1745a3;
+    background-color: rgb(0, 74, 173);
     box-shadow: 7px 13px 37px black;
     font-family: kollektif;
 }
@@ -554,7 +554,7 @@ footer {
 .clientes__boton:hover {
     transform: scale(1.03);
     box-shadow: 7px 13px 37px black;
-    color: #1745a3;
+    color: rgb(0, 74, 173);
 }
 
 .clientes__texto {
