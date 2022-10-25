@@ -70,16 +70,14 @@ header nav ul li:hover {
 .portada {
     display: flex;
     flex-direction: column;
+
 }
 
 .caja1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
-
-}
+    }
 
 .caja1__texto {
     font-size: 2rem;
@@ -151,7 +149,7 @@ header nav ul li:hover {
 }
 
 .caja4 {
-    width: 100vw;
+    width: 100%;
 }
 
 .caja4__img {
