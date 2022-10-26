@@ -26,24 +26,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-.redes{
+
+.redes {
     padding: 10px 10px 0px 0px;
     align-self: end;
 }
-.redes a{
+
+.redes a {
     font-size: 1.5rem;
     padding: 5px;
     color: whitesmoke;
 }
+
 .hideh1 {
     display: none;
 }
 
 header img {
     width: 300px;
-    
+
 }
 
 header nav ul {
@@ -63,21 +65,20 @@ header nav ul li a {
 
 header nav ul li:hover {
     transform: translateY(-5px);
-    }
+}
 
 /* ----------main---------- */
 
 .portada {
     display: flex;
     flex-direction: column;
-
-}
+    }
 
 .caja1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    }
+}
 
 .caja1__texto {
     font-size: 2rem;
@@ -115,8 +116,7 @@ header nav ul li:hover {
 
 .caja2 {
     width: 100%;
-
-
+display: flex;
 }
 
 .caja2__img {
@@ -126,7 +126,6 @@ header nav ul li:hover {
 }
 
 .caja3 {
-    margin-top: 15px;
     font-size: 2rem;
     text-align: center;
     padding: 5px;
@@ -144,11 +143,10 @@ header nav ul li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .caja4 {
+    display: flex;
     width: 100%;
 }
 
@@ -160,7 +158,7 @@ header nav ul li:hover {
 
 .caja5 {
     width: fit-content;
-}
+    }
 
 
 
@@ -249,7 +247,7 @@ header nav ul li:hover {
 
     .estiloLista:hover {
         transform: translateY(-5px);
-        }
+    }
 }
 
 /*----------footer---------- */
@@ -261,7 +259,7 @@ footer {
     align-items: baseline;
     background-color: grey;
     padding-bottom: 10px;
-    }
+}
 
 .tarjeta {
     width: 370px;
@@ -318,11 +316,12 @@ footer {
 .tituloProductos {
     text-align: center;
     font-size: 3rem;
-    margin: 20px;
+    padding: 20px;
     text-decoration: underline;
     font-family: kollektif;
 
 }
+
 
 .productos {
     display: flex;
@@ -384,18 +383,15 @@ footer {
 
 /* ---------- quienessomos.html ---------- */
 .quienesSomos {
-    margin: 30px 5px 30px 5px;
+    padding: 30px 5px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-
-
 }
 
 .quienesSomos__cajas {
     width: 500px;
-
     margin: 20px;
     overflow: hidden;
     display: flex;
@@ -425,10 +421,11 @@ footer {
 
 
 /* ----------contacto.html---------- */
-.contain{
+.contain {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
+
 .contacto {
     width: 90%;
     max-width: 750px;
@@ -568,7 +565,8 @@ footer {
     color: white;
 
 }
-.clientes__img{
+
+.clientes__img {
     width: 200px;
     padding: 10px;
 }
