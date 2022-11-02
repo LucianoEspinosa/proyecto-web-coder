@@ -8,32 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>InjectNow | Contacto</title>
 </head>
 
 <body>
-    <header>
-        <div class="redes">
-            <a href="https://www.instagram.com/injectnow/?hl=es" class="bi bi-instagram" target="_blank"></a>
-            <a href="https://www.facebook.com/profile.php?id=100063973456197" class="bi bi-facebook"
-                target="_blank"></a>
+    <header class="navbar navbar-expand-md navbar-dark">
+        <h1 class="hideh1">InjectNow, impresoras, fotocopiadoras, multifunciones</h1>
+        <div class="container align-items-end flex-md-column align-items-md-center">
+            <img src="../img/logoinjectnow.png" alt="Logo Injectnow" class="w-50 logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link link"  href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="quienessomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="portalclientes.html">Portal de clientes</a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
-        <img src="../img/logoinjectnow.png" alt="logoinjectnow">
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="productos.html"> Productos</a></li>
-                <li><a href="quienessomos.html"> Quienes somos</a></li>
-                <li><a href="contacto.html"> Contacto</a></li>
-                <li><a href="portalclientes.html"> Portal de clientes</a></li>
-
-
-            </ul>
-        </nav>
-
-
     </header>
     <main class="contain">
         <section class="contacto">
@@ -89,16 +100,25 @@
 
             </p>
         </div>
-        <div class="tarjeta">
+
+        <div class="redes">
+            <a href="https://www.instagram.com/injectnow/?hl=es" class="bi bi-instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063973456197" class="bi bi-facebook"
+                target="_blank"></a>
+            <a href="https://wa.me/541167936061?text=Gracias%20por%20comunicarse%20con%20InjenctNow.%20Ir%20al%20chat%20para%20enviarnos%20un%20mensaje%20y%20un%20representante%20se%20comunicar%C3%A1%20con%20usted."
+                class="bi bi-whatsapp" target="_blank"></a>
+        </div>
+
+        <!-- <div class="tarjeta">
             <h3 class="tarjeta__titulo">Contacto</h3>
 
             <h4 class="tarjeta__texto">Juana Manso 1234</h4>
             <h4 class="tarjeta__texto">Injectnow@gmail.com</h4>
             <h4 class="tarjeta__texto">Tel:(54 11) ####-####</h4>
 
-        </div>
-        <div class="tarjeta">
+        </div> -->
 
+        <div class="tarjeta">
             <h3 class="tarjeta__titulo">Newsletter</h3>
             <p class="tarjeta__texto">Suscribase para recibir todas las novedades de InjectNow.</p>
             <form class="newsletter">
@@ -112,6 +132,9 @@
             </form>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
