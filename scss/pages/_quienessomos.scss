@@ -1,0 +1,35 @@
+.quienesSomos {
+    padding: 30px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.quienesSomos__cajas {
+    width: 500px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.quienesSomos__titulos {
+
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-family: montserrat;
+
+}
+
+.quienesSomos__texto {
+    font-size: 1.3rem;
+    font-family: montserrat;
+    font-weight: 400;
+
+}
+
+.quienesSomos__lista {
+    list-style: inside;
+}
