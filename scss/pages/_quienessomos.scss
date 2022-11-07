@@ -1,25 +1,23 @@
 .quienesSomos {
+    @include flexw;
     padding: 30px 5px;
-    display: flex;
-    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
 }
 
 .quienesSomos__cajas {
+    @include flexcolumn;
     width: 500px;
     margin: 20px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
     transition-duration: 150ms;
-}
-.quienesSomos__cajas:hover{
-    transform: translateY(5px)
+
+    &:hover {
+        transform: translateY(5px)
+    }
 }
 
 .quienesSomos__titulos {
-
     text-decoration: underline;
     padding-bottom: 20px;
     font-size: 2rem;
@@ -36,7 +34,8 @@
 
 .quienesSomos__lista {
     list-style: inside;
-}
-.quienesSomos__lista:hover{
-    color: $color-primario
+
+    &:hover {
+        color: $color-primario
+    }
 }

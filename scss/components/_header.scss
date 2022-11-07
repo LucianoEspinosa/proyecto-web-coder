@@ -3,15 +3,12 @@ header {
 
 }
 
-
-
 .hideh1 {
     display: none;
 }
 
 .logo {
     max-width: 300px;
-
 }
 
 .navbar-toggler {
@@ -22,20 +19,16 @@ header {
     box-shadow: none;
 }
 
-
-
-.link {
+.link{
     color: $color-contraste;
     font-size: 1.1rem;
     font-family: kollektif;
-}
 
-.link:hover {
+&:hover {
     color: $color-contraste;
     text-shadow: 10px;
-
 }
-
+}
 
 @media (min-width: 768px) {
     header nav ul li:hover {

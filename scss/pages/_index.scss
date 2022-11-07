@@ -1,14 +1,10 @@
 .portada {
-    display: flex;
-    flex-direction: column;
-
+    @include flexcolumn;
 }
 
 .caja1 {
-    display: flex;
-    flex-direction: column;
+    @include flexcolumn;
     padding: 10px;
-
 }
 
 .caja1__texto {
@@ -24,37 +20,13 @@
     text-align: center;
 }
 
-.caja1__boton {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: end;
-}
-
-.caja1__link {
-    color: $color-contraste;
-    font-size: 1.2rem;
-    background-color: $color-secundario;
-    border-radius: 5px;
-    padding: 10px;
-    font-family: kollektif;
-}
-
-.caja1__link:hover {
-    background-color: $color-primario;
-    color: white;
-}
-
 .caja2 {
     width: 100%;
 
 }
 
 .caja2__img {
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @include imagenes;
 }
 
 .caja3 {
@@ -65,15 +37,13 @@
     color: $color-contraste;
     font-family: kollektif;
 
-}
-
-.caja3:hover {
-    background-color: $color-primario;
+    &:hover {
+        background-color: $color-primario;
+    }
 }
 
 .portada2 {
-    display: flex;
-    flex-direction: column;
+    @include flexcolumn;
     align-items: center;
 
 }
@@ -85,16 +55,13 @@
 }
 
 .caja4__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @include imagenes;
 }
 
 .caja5 {
-    width: 100%;
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 
@@ -105,23 +72,19 @@
     padding: 10px;
     font-family: sans-serif;
     line-height: normal;
+
+    &:hover {
+        color: $color-primario;
+    }
 }
-
-.estiloLista:hover {
-    color: $color-primario;
-
-}
-
 
 
 @media (min-width: 1200px) {
     .portada {
         flex-direction: row;
+        align-items: center;
         width: 100%;
         height: 60vh;
-        align-items: center;
-
-
     }
 
 
@@ -143,8 +106,8 @@
 
     .caja1__boton {
         margin-top: 50px;
-        width: 100%;
-        text-align: left;
+        align-self: flex-start;
+        
     }
 
     .caja2 {
@@ -167,27 +130,17 @@
         width: 50%;
     }
 
-    .caja4__img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-
-    }
-
-
     .caja5 {
         width: 50%;
         justify-content: flex-start;
     }
 
-
-
     .estiloLista {
         padding: 25px;
         transition-duration: 250ms;
-    }
 
-    .estiloLista:hover {
-        transform: translateY(-5px);
+        &:hover {
+            transform: translateY(-5px);
+        }
     }
 }

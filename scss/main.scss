@@ -1,8 +1,9 @@
-@import"./base/base";
-
 @import"./utils/variables";
 @import"./utils/mixin";
 
+@import"./base/base";
+
+@import"./components/_buttons";
 @import"./components/tarjeta";
 @import"./components/header";
 @import"./components/footer";
