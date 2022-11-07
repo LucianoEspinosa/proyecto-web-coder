@@ -1,5 +1,8 @@
 @import"./base/base";
 
+@import"./utils/variables";
+@import"./utils/mixin";
+
 @import"./components/tarjeta";
 @import"./components/header";
 @import"./components/footer";
@@ -10,6 +13,5 @@
 @import"./pages/contacto";
 @import"./pages/portalclientes";
 
-@import"./utils/variables";
-@import"./utils/mixin";
+
 

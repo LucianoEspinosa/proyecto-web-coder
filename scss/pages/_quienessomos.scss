@@ -12,6 +12,10 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition-duration: 150ms;
+}
+.quienesSomos__cajas:hover{
+    transform: translateY(5px)
 }
 
 .quienesSomos__titulos {
@@ -32,4 +36,7 @@
 
 .quienesSomos__lista {
     list-style: inside;
+}
+.quienesSomos__lista:hover{
+    color: $color-primario
 }

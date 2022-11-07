@@ -32,16 +32,16 @@
 }
 
 .caja1__link {
-    color: white;
+    color: $color-contraste;
     font-size: 1.2rem;
-    background-color: grey;
+    background-color: $color-secundario;
     border-radius: 5px;
     padding: 10px;
     font-family: kollektif;
 }
 
 .caja1__link:hover {
-    background-color: #1745a3;
+    background-color: $color-primario;
     color: white;
 }
 
@@ -61,14 +61,14 @@
     font-size: 2rem;
     text-align: center;
     padding: 5px;
-    background-color: gray;
-    color: white;
+    background-color: $color-secundario;
+    color: $color-contraste;
     font-family: kollektif;
 
 }
 
 .caja3:hover {
-    background-color: rgb(0, 74, 173);
+    background-color: $color-primario;
 }
 
 .portada2 {
@@ -108,7 +108,7 @@
 }
 
 .estiloLista:hover {
-    color: rgb(0, 74, 173);
+    color: $color-primario;
 
 }
 

@@ -1,7 +1,7 @@
 footer {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: $color-secundario;
     padding-bottom: 10px;
 }
 
@@ -16,9 +16,9 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     padding: 5px;
-    color: white;
+    color: $color-contraste;
     font-family: kollektif;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $color-contraste;
 
 }
 
@@ -27,7 +27,7 @@ footer {
     font-weight: 500;
     text-align: center;
     padding: 5px;
-    color: white;
+    color: $color-contraste;
 
 
 }
@@ -42,7 +42,7 @@ footer {
 .redes a {
     font-size: 2rem;
     padding: 5px;
-    color: whitesmoke;
+    color: $color-contraste;
 }
 
 .newsletter {
