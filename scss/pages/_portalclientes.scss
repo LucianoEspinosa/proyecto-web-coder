@@ -10,9 +10,7 @@
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
     font-family: kollektif;
-}
-
-.clientes__titulo {
+&__titulo {
     text-align: center;
     height: 40px;
     margin-bottom: 30px;
@@ -20,31 +18,27 @@
     font-size: 1.5rem;
     color: $color-contraste;
     font-weight: 400;
-
-
 }
 
-.clientes__input {
+&__input {
     width: 100%;
     margin-bottom: 15px;
     border: 1px solid $color-secundario;
     padding: 10px;
-
 }
 
-.clientes__texto {
+&__texto {
     height: 40px;
     text-align: center;
     border-bottom: 2px solid $color-contraste;
-
 }
 
-.clientes__link {
+&__link {
     color: $color-contraste;
-
 }
 
-.clientes__img {
+&__img {
     width: 200px;
     padding: 10px;
+}
 }

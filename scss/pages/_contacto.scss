@@ -14,41 +14,39 @@
     box-shadow: 7px 13px 37px $color-sombras;
     font-family: kollektif;
     color: $color-contraste;
-}
 
+    &__titulo {
+        text-align: center;
+        height: 40px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid $color-contraste;
+        font-size: 1.6rem;
+        color: $color-contraste;
+        font-family: kollektif;
+        font-weight: 400;
 
+    }
 
-.contacto__titulo {
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid $color-contraste;
-    font-size: 1.6rem;
-    color: $color-contraste;
-    font-family: kollektif;
-    font-weight: 400;
+    &__input {
+        width: 100%;
+        margin-bottom: 15px;
+        border: 1px solid $color-secundario;
+        padding: 10px;
+    }
 
-}
+    &__cliente {
+        text-align: center;
+        margin: 15px 0px 15px 0px;
 
-.contacto__input {
-    width: 100%;
-    margin-bottom: 15px;
-    border: 1px solid $color-secundario;
-    padding: 10px;
-}
+    }
 
-.contacto__cliente {
-    text-align: center;
-    margin: 15px 0px 15px 0px;
+    &__textArea {
+        width: 100%;
+        border: 1px solid $color-secundario;
+        font-family: kollektif;
+    }
 
-}
-
-.contacto__textArea {
-    width: 100%;
-    border: 1px solid $color-secundario;
-    font-family: kollektif;
-}
-
-    .contacto__label {
+    &__label {
         margin: 15px 0px 15px 0px;
     }
+}

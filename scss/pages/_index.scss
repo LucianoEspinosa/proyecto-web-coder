@@ -5,28 +5,27 @@
 .caja1 {
     @include flexcolumn;
     padding: 10px;
-}
 
-.caja1__texto {
-    font-size: 2rem;
-    font-family: sans-serif;
-    text-align: center;
-}
+    &__texto {
+        font-size: 2rem;
+        font-family: sans-serif;
+        text-align: center;
+    }
 
-.caja1__texto2 {
-    font-size: 1.3rem;
-    font-family: sans-serif;
-    font-weight: 400;
-    text-align: center;
+    &__texto2 {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
 }
 
 .caja2 {
     width: 100%;
 
-}
-
-.caja2__img {
-    @include imagenes;
+    &__img {
+        @include imagenes;
+    }
 }
 
 .caja3 {
@@ -52,10 +51,9 @@
     display: flex;
     width: 100%;
 
-}
-
-.caja4__img {
-    @include imagenes;
+    &__img {
+        @include imagenes;
+    }
 }
 
 .caja5 {
@@ -87,28 +85,21 @@
         height: 60vh;
     }
 
-
     .caja1 {
         padding: 100px 50px 100px 200px;
         margin-left: 5px;
         width: 50%;
+
+        &__texto {
+            text-align: left;
+        }
+
+        &__texto2 {
+            text-align: left;
+        }
     }
 
 
-
-    .caja1__texto {
-        text-align: left;
-    }
-
-    .caja1__texto2 {
-        text-align: left;
-    }
-
-    .caja1__boton {
-        margin-top: 50px;
-        align-self: flex-start;
-        
-    }
 
     .caja2 {
         width: 50%;

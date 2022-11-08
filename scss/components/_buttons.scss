@@ -1,5 +1,4 @@
 // boton de caja1 index
-
 .caja1__boton {
     align-self: flex-end;
     font-family: kollektif;
@@ -17,12 +16,19 @@
     }
 }
 
-//boton de tarjeta productos
+@media (min-width: 1200px) {
+    .caja1__boton {
+        margin-top: 50px;
+        align-self: flex-start;
 
+    }
+}
+
+//boton de tarjeta productos
 .productos__tarjeta__boton {
     font-family: kollektif;
     font-size: 1rem;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;

@@ -1,0 +1,27 @@
+//tarjeta de productos
+.productos__tarjeta {
+    @include flexcolumn;
+    align-items: center;
+    width: 255px;
+    height: 370px;
+    margin: 20px;
+    overflow: hidden;
+    transition-duration: 100ms;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    &__name {
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 20px;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+
+    &__img {
+        @include imagenes;
+    }
+}

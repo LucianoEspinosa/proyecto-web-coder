@@ -1,6 +1,5 @@
 header {
     background-color: $color-primario;
-
 }
 
 .hideh1 {
@@ -13,21 +12,22 @@ header {
 
 .navbar-toggler {
     border: none;
+
+    &:focus {
+        box-shadow: none;
+    }
 }
 
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.link{
+.link {
     color: $color-contraste;
     font-size: 1.1rem;
     font-family: kollektif;
+    transition-duration: 100ms;
 
-&:hover {
-    color: $color-contraste;
-    text-shadow: 10px;
-}
+    &:hover {
+        color: $color-contraste;
+        transform: translateX(5px) ;
+    }
 }
 
 @media (min-width: 768px) {

@@ -3,9 +3,7 @@
     padding: 30px 5px;
     gap: 50px;
     justify-content: center;
-}
-
-.quienesSomos__cajas {
+&__cajas {
     @include flexcolumn;
     width: 500px;
     margin: 20px;
@@ -16,26 +14,24 @@
         transform: translateY(5px)
     }
 }
-
-.quienesSomos__titulos {
+&__titulos {
     text-decoration: underline;
     padding-bottom: 20px;
     font-size: 2rem;
     font-family: montserrat;
 
 }
-
-.quienesSomos__texto {
+&__texto {
     font-size: 1.3rem;
     font-family: montserrat;
     font-weight: 400;
 
 }
-
-.quienesSomos__lista {
+&__lista {
     list-style: inside;
 
     &:hover {
         color: $color-primario
     }
+}
 }
