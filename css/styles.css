@@ -133,7 +133,7 @@ textarea {
 .productos__tarjeta:hover {
   transform: scale(1.2);
 }
-.productos__tarjeta__name {
+.productos__tarjeta__titulo {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
