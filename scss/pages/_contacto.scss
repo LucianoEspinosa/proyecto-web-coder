@@ -12,7 +12,7 @@
     margin-bottom: 100px;
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
-    font-family: kollektif;
+    font-family: $tipo-primaria;
     color: $color-contraste;
 
     &__titulo {
@@ -22,7 +22,7 @@
         border-bottom: 2px solid $color-contraste;
         font-size: 1.6rem;
         color: $color-contraste;
-        font-family: kollektif;
+        font-family: $tipo-primaria;
         font-weight: 400;
 
     }
@@ -32,6 +32,7 @@
         margin-bottom: 15px;
         border: 1px solid $color-secundario;
         padding: 10px;
+        font-family: $tipo-primaria;
     }
 
     &__cliente {
@@ -43,7 +44,10 @@
     &__textArea {
         width: 100%;
         border: 1px solid $color-secundario;
-        font-family: kollektif;
+        font-family: $tipo-primaria;
+        &:focus{
+            outline: none;
+        }
     }
 
     &__label {

@@ -21,7 +21,7 @@ header {
 .link {
     color: $color-contraste;
     font-size: 1.1rem;
-    font-family: kollektif;
+    font-family: $tipo-primaria;
     transition-duration: 100ms;
 
     &:hover {

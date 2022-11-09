@@ -141,7 +141,7 @@ textarea {
   text-decoration: underline;
   padding-bottom: 20px;
   font-size: 1.8rem;
-  font-family: sans-serif;
+  font-family: kollektif;
   font-weight: 400;
 }
 .productos__tarjeta__img {
@@ -482,6 +482,7 @@ footer {
   margin-bottom: 15px;
   border: 1px solid grey;
   padding: 10px;
+  font-family: kollektif;
 }
 .contacto__cliente {
   text-align: center;
@@ -491,6 +492,9 @@ footer {
   width: 100%;
   border: 1px solid grey;
   font-family: kollektif;
+}
+.contacto__textArea:focus {
+  outline: none;
 }
 .contacto__label {
   margin: 15px 0px 15px 0px;
@@ -508,7 +512,6 @@ footer {
   margin-bottom: 120px;
   background-color: rgb(0, 74, 173);
   box-shadow: 7px 13px 37px black;
-  font-family: kollektif;
 }
 .clientes__titulo {
   text-align: center;
@@ -518,12 +521,14 @@ footer {
   font-size: 1.5rem;
   color: white;
   font-weight: 400;
+  font-family: kollektif;
 }
 .clientes__input {
   width: 100%;
   margin-bottom: 15px;
   border: 1px solid grey;
   padding: 10px;
+  font-family: kollektif;
 }
 .clientes__texto {
   height: 40px;

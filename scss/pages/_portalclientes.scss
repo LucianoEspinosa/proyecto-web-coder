@@ -9,7 +9,7 @@
     margin-bottom: 120px;
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
-    font-family: kollektif;
+    
 &__titulo {
     text-align: center;
     height: 40px;
@@ -18,6 +18,7 @@
     font-size: 1.5rem;
     color: $color-contraste;
     font-weight: 400;
+    font-family: $tipo-primaria;
 }
 
 &__input {
@@ -25,6 +26,7 @@
     margin-bottom: 15px;
     border: 1px solid $color-secundario;
     padding: 10px;
+    font-family: $tipo-primaria;
 }
 
 &__texto {

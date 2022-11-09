@@ -8,13 +8,13 @@
 
     &__texto {
         font-size: 2rem;
-        font-family: sans-serif;
+        font-family: $tipo-terciaria;
         text-align: center;
     }
 
     &__texto2 {
         font-size: 1.3rem;
-        font-family: sans-serif;
+        font-family: $tipo-terciaria;
         font-weight: 400;
         text-align: center;
     }
@@ -34,7 +34,7 @@
     padding: 5px;
     background-color: $color-secundario;
     color: $color-contraste;
-    font-family: kollektif;
+    font-family: $tipo-primaria;
 
     &:hover {
         background-color: $color-primario;
@@ -68,7 +68,7 @@
     font-size: 1.3rem;
     list-style: inside;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: $tipo-terciaria;
     line-height: normal;
 
     &:hover {
