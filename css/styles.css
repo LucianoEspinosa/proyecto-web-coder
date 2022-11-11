@@ -189,6 +189,9 @@ header {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+.navbar-toggler-icon {
+  vertical-align: baseline;
+}
 
 .link {
   color: white;

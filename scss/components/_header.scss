@@ -16,6 +16,10 @@ header {
     &:focus {
         box-shadow: none;
     }
+
+    &-icon {
+        vertical-align: baseline;
+    }
 }
 
 .link {
@@ -26,7 +30,7 @@ header {
 
     &:hover {
         color: $color-contraste;
-        transform: translateX(5px) ;
+        transform: translateX(5px);
     }
 }
 
