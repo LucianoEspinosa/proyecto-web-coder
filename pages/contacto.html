@@ -50,7 +50,7 @@
     <main class="containContacto">
         <section class="contacto">
             <h1 class="contacto__titulo">Formulario de contacto</h1>
-            <form>
+            <form name="contacto" method="POST" data-netlify="true">
                 <div>
                     <label for="nombre">Nombre</label>
                     <input class="contacto__input" type="text" name="nombre" id="nombre" placeholder="Nombre*" required>
@@ -113,7 +113,7 @@
         <div class="box">
             <h3 class="box__titulo">Newsletter</h3>
             <p class="box__texto">Suscribase para recibir todas las novedades de InjectNow.</p>
-            <form netlify class="newsletter">
+            <form name="newsletter" method="POST" data-netlify="true" class="newsletter">
                 <input class="newsletter__nombre" type="text" name="nombre" placeholder="Nombre*" id="newsletter"
                     required>
                 <input class="newsletter__nombre" type="text" name="apellido" placeholder="Apellido*" id="newsletter"
