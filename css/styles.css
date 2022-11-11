@@ -74,6 +74,7 @@ textarea {
   .caja1__boton {
     margin-top: 50px;
     align-self: flex-start;
+    font-size: 1.3rem;
   }
 }
 .productos__tarjeta__boton {
@@ -123,6 +124,26 @@ textarea {
   width: 30px;
 }
 
+.construccion__boton {
+  font-family: kollektif;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+}
+.construccion__boton:hover {
+  background-color: rgb(0, 74, 173);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .construccion__boton {
+    font-size: 1.5rem;
+  }
+}
 .productos__tarjeta {
   display: flex;
   flex-direction: column;
@@ -280,14 +301,15 @@ footer {
 }
 .caja1__texto {
   font-size: 2rem;
-  font-family: sans-serif;
+  font-family: montserrat;
   text-align: center;
 }
 .caja1__texto2 {
   font-size: 1.3rem;
-  font-family: sans-serif;
+  font-family: montserrat;
   font-weight: 400;
   text-align: center;
+  margin-top: 3px;
 }
 
 .caja2 {
@@ -337,7 +359,7 @@ footer {
   font-size: 1.3rem;
   list-style: inside;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: montserrat;
   line-height: normal;
 }
 .estiloLista:hover {
@@ -394,7 +416,7 @@ footer {
   font-size: 3rem;
   padding: 20px;
   text-decoration: underline;
-  font-family: kollektif;
+  font-family: montserrat;
 }
 
 .productos {
@@ -454,7 +476,7 @@ footer {
   height: 450px;
 }
 
-.contain {
+.containContacto {
   display: flex;
   justify-content: center;
 }
@@ -494,6 +516,7 @@ footer {
 }
 .contacto__textArea {
   width: 100%;
+  max-height: 175px;
   border: 1px solid grey;
   font-family: kollektif;
 }
@@ -502,6 +525,11 @@ footer {
 }
 .contacto__label {
   margin: 15px 0px 15px 0px;
+}
+
+.containClientes {
+  display: flex;
+  justify-content: center;
 }
 
 .clientes {
@@ -513,7 +541,7 @@ footer {
   height: fit-content;
   padding: 20px 30px;
   margin-top: 50px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   background-color: rgb(0, 74, 173);
   box-shadow: 7px 13px 37px black;
 }
@@ -545,6 +573,73 @@ footer {
 .clientes__img {
   width: 200px;
   padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .containClientes {
+    min-height: calc(100vh - 221px - 168px);
+  }
+}
+.construccion {
+  display: flex;
+  flex-direction: column;
+}
+.construccion__titulo {
+  font-size: 2rem;
+  font-family: montserrat;
+  text-align: center;
+  padding: 20px;
+}
+.construccion__contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.construccion__img {
+  width: 80%;
+}
+.construccion__caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.construccion__subtitulo {
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .construccion {
+    min-height: calc(100vh - 221px - 168px);
+    align-items: center;
+  }
+  .construccion__titulo {
+    font-size: 3rem;
+    font-family: montserrat;
+    text-align: center;
+  }
+  .construccion__contain {
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 90%;
+  }
+  .construccion__img {
+    width: 50%;
+  }
+  .construccion__caja {
+    width: 50%;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .construccion__subtitulo {
+    font-size: 2.5rem;
+    text-align: start;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

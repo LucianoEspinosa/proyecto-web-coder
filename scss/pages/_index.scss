@@ -8,15 +8,16 @@
 
     &__texto {
         font-size: 2rem;
-        font-family: $tipo-terciaria;
+        font-family: $tipo-secundaria;
         text-align: center;
     }
 
     &__texto2 {
         font-size: 1.3rem;
-        font-family: $tipo-terciaria;
+        font-family: $tipo-secundaria;
         font-weight: 400;
         text-align: center;
+        margin-top: 3px;
     }
 }
 
@@ -68,7 +69,7 @@
     font-size: 1.3rem;
     list-style: inside;
     padding: 10px;
-    font-family: $tipo-terciaria;
+    font-family: $tipo-secundaria;
     line-height: normal;
 
     &:hover {

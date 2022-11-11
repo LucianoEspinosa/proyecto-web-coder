@@ -1,3 +1,7 @@
+.containClientes {
+    display: flex;
+    justify-content: center;
+}
 .clientes {
     @include flexcolumn;
     align-items: center;
@@ -6,9 +10,10 @@
     height: fit-content;
     padding: 20px 30px;
     margin-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
+    
     
 &__titulo {
     text-align: center;
@@ -43,4 +48,9 @@
     width: 200px;
     padding: 10px;
 }
+}
+@media(min-width:768px){
+    .containClientes{
+        min-height:calc(100vh - 221px - 168px);
+    }
 }

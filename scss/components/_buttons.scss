@@ -20,6 +20,7 @@
     .caja1__boton {
         margin-top: 50px;
         align-self: flex-start;
+        font-size: 1.3rem;
 
     }
 }
@@ -77,4 +78,27 @@
 .newsletter__boton {
     width: 30px;
 
+}
+
+//boton de construccion
+.construccion__boton {
+    font-family: $tipo-primaria;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: $color-secundario;
+    color: $color-contraste;
+
+    &:hover {
+        background-color: $color-primario;
+        color: $color-contraste;
+    }
+}
+
+@media (min-width:768px) {
+    .construccion__boton {
+        font-size: 1.5rem;
+    }
 }

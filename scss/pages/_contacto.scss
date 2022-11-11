@@ -1,4 +1,4 @@
-.contain {
+.containContacto {
     display: flex;
     justify-content: center;
 }
@@ -43,6 +43,7 @@
 
     &__textArea {
         width: 100%;
+        max-height: 175px;
         border: 1px solid $color-secundario;
         font-family: $tipo-primaria;
         &:focus{
