@@ -54,3 +54,8 @@
         min-height:calc(100vh - 221px - 168px);
     }
 }
+@media (min-width:1400px) {
+    .containClientes{
+        min-height: calc(100vh - 221px - 157px);
+    }
+}

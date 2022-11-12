@@ -141,6 +141,11 @@ textarea {
 
 @media (min-width: 768px) {
   .construccion__boton {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .construccion__boton {
     font-size: 1.5rem;
   }
 }
@@ -583,6 +588,11 @@ footer {
     min-height: calc(100vh - 221px - 168px);
   }
 }
+@media (min-width: 1400px) {
+  .containClientes {
+    min-height: calc(100vh - 221px - 157px);
+  }
+}
 .construccion {
   display: flex;
   flex-direction: column;
@@ -630,6 +640,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     max-width: 90%;
+    margin-top: 30px;
   }
   .construccion__img {
     width: 50%;
@@ -640,8 +651,18 @@ footer {
     gap: 25px;
   }
   .construccion__subtitulo {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: start;
+  }
+}
+@media (min-width: 1200px) {
+  .construccion__subtitulo {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .construccion {
+    min-height: calc(100vh - 221px - 157px);
   }
 }
 

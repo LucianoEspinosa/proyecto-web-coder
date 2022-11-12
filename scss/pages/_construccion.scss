@@ -1,6 +1,6 @@
 .construccion {
     @include flexcolumn;
-   
+
 
     &__titulo {
         font-size: 2rem;
@@ -13,7 +13,6 @@
         @include flexcolumn;
         align-items: center;
         gap: 15px;
-
     }
 
     &__img {
@@ -38,7 +37,7 @@
 
 @media (min-width:768px) {
     .construccion {
-        min-height:calc(100vh - 221px - 168px);
+        min-height: calc(100vh - 221px - 168px);
         align-items: center;
 
         &__titulo {
@@ -51,6 +50,7 @@
             flex-direction: row;
             justify-content: space-around;
             max-width: 90%;
+            margin-top: 30px;
         }
 
         &__img {
@@ -64,8 +64,18 @@
         }
 
         &__subtitulo {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             text-align: start;
         }
+    }
+}
+@media (min-width:1200px) {
+    .construccion__subtitulo{
+        font-size: 2.5rem;
+}
+}
+@media (min-width:1400px) {
+    .construccion {
+        min-height: calc(100vh - 221px - 157px);
     }
 }
