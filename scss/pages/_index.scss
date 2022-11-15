@@ -45,11 +45,9 @@
 .portada2 {
     @include flexcolumn;
     align-items: center;
-
 }
 
 .caja4 {
-    display: flex;
     width: 100%;
 
     &__img {
