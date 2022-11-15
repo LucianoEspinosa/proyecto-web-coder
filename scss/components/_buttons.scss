@@ -21,6 +21,7 @@
         margin-top: 50px;
         align-self: flex-start;
         font-size: 1.3rem;
+        padding: 5px 20px;
 
     }
 }
@@ -41,6 +42,7 @@
         color: $color-contraste;
     }
 }
+
 //boton de formulario contacto
 .contacto__boton {
     width: 100%;
@@ -48,7 +50,7 @@
     margin-bottom: 15px;
     font-family: $tipo-primaria;
     font-size: 1.1rem;
-    transition-duration: 100ms;
+    transition-duration: 150ms;
 
     &:hover {
         transform: scale(1.03);
@@ -64,7 +66,7 @@
     margin-bottom: 15px;
     font-family: $tipo-primaria;
     font-size: 1.1rem;
-    transition-duration: 100ms;
+    transition-duration: 150ms;
 
     &:hover {
         transform: scale(1.03);
