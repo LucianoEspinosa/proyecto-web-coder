@@ -564,7 +564,7 @@ footer {
   font-size: 1.5rem;
   color: white;
   font-weight: 400;
-  font-family: kollektif;
+  font-family: montserrat;
 }
 .clientes__input {
   width: 100%;
@@ -573,13 +573,12 @@ footer {
   padding: 10px;
   font-family: kollektif;
 }
-.clientes__texto {
-  height: 40px;
-  text-align: center;
-  border-bottom: 2px solid white;
-}
 .clientes__link {
+  font-family: montserrat;
   color: white;
+}
+.clientes__link:hover {
+  color: black;
 }
 .clientes__img {
   width: 200px;

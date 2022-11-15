@@ -23,7 +23,7 @@
     font-size: 1.5rem;
     color: $color-contraste;
     font-weight: 400;
-    font-family: $tipo-primaria;
+    font-family: $tipo-secundaria;
 }
 
 &__input {
@@ -33,15 +33,12 @@
     padding: 10px;
     font-family: $tipo-primaria;
 }
-
-&__texto {
-    height: 40px;
-    text-align: center;
-    border-bottom: 2px solid $color-contraste;
-}
-
 &__link {
+    font-family: $tipo-secundaria;
     color: $color-contraste;
+    &:hover{
+        color: $color-sombras;
+    }
 }
 
 &__img {
