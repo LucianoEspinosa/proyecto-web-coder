@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" type="image/jpg" href="../img/icon.ico" />
     <title>Quienes Somos | InjectNow</title>
@@ -55,7 +56,7 @@
 
     <main class="quienesSomos">
 
-        <section class="quienesSomos__cajas">
+        <section data-aos="fade-right" class="quienesSomos__cajas">
             <h1 class="quienesSomos__titulos">Presentacion</h1>
 
             <p class="quienesSomos__texto">Somos una empresea joven en un ambiente de trabajo que fomenta el
@@ -72,11 +73,11 @@
 
         </section>
 
-        <div class="quienesSomos__cajas">
+        <div data-aos="flip-up" class="quienesSomos__cajas">
             <img src="../img/trabajo.jpg" alt="Gente trabajando">
         </div>
 
-        <section class="quienesSomos__cajas">
+        <section data-aos="fade-right" class="quienesSomos__cajas">
             <h2 class="quienesSomos__titulos">Nuestra vision</h2>
             <p class="quienesSomos__texto">Mantener nuestros clientes de por vida, asumiendo sus cambios como
                 propios,
@@ -84,11 +85,11 @@
                 archivo de sus documentos, facilitándoselos al menor costo y con alta calidad, mediante la renta de
                 equipos de última generación tecnología y con software amigables.</p>
         </section>
-        <div class="quienesSomos__cajas">
+        <div data-aos="flip-up" class="quienesSomos__cajas">
             <img src="../img/trabajo1.jpg" alt="Mujer trabajando">
         </div>
 
-        <section class="quienesSomos__cajas">
+        <section data-aos="fade-right" class="quienesSomos__cajas">
             <h2 class="quienesSomos__titulos">Nuestros Valores</h2>
             <ul class="quienesSomos__texto">
                 <li class="quienesSomos__lista">Actitud Positiva</li>
@@ -100,7 +101,7 @@
             </ul>
         </section>
 
-        <section class="quienesSomos__cajas">
+        <section data-aos="flip-up" class="quienesSomos__cajas">
             <h2 class="quienesSomos__titulos">Donde estamos</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.978717819285!2d-58.36638034948933!3d-34.604699664960535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352e592d3b0b%3A0x620cadd22cda5273!2sMadero%20Center!5e0!3m2!1ses-419!2sar!4v1664245080521!5m2!1ses-419!2sar"
@@ -146,9 +147,14 @@
             </form>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

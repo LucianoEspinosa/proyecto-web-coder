@@ -3,6 +3,7 @@
     padding: 30px 5px;
     gap: 50px;
     justify-content: center;
+    ;
 
     &__cajas {
         @include flexcolumn;
