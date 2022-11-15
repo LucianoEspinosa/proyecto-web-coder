@@ -7,7 +7,7 @@ header {
 }
 
 .logo {
-    max-width: 300px;
+    width: 180px;
 }
 
 .navbar-toggler {
@@ -32,9 +32,13 @@ header {
         color: $color-contraste;
         transform: translateX(5px);
     }
+    
 }
 
 @media (min-width: 768px) {
+    .logo {
+        width: 300px;
+    }
     header nav ul li:hover {
         transform: translateY(-5px);
     }
