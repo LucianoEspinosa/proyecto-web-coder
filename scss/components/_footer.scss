@@ -2,8 +2,7 @@ footer {
     @include flexcolumn;
     background-color: $color-secundario;
     padding-bottom: 10px;
-    
-}
+    }
 
 .box {
     max-width: 100%;
@@ -15,17 +14,17 @@ footer {
         text-align: center;
         padding: 5px;
         color: $color-contraste;
-        font-family: $tipo-primaria;
         border-bottom: 2px solid $color-contraste;
     }
 
     &__texto {
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 0.9rem;
+        font-weight: 400;
         text-align: center;
         padding: 5px;
         color: $color-contraste;
-        }
+        font-family: $tipo-secundaria;
+    }
 }
 
 .redes {
@@ -43,15 +42,24 @@ footer {
 .newsletter {
     @include flexw;
     justify-content: center;
-    gap: 1px;
+    gap: 3px;
 
     &__nombre {
         width: 150px;
-
+        height: 30px;
+        border: none;
+        color: $color-sombras;
+        font-family: $tipo-secundaria;
+        font-size: 0.8rem;
     }
 
     &__email {
-        width: 262px;
+        width: 240px;
+        height: 30px;
+        border: none;
+        color: $color-sombras;
+        font-family: $tipo-secundaria;
+        font-size: 0.8rem;
     }
 }
 
@@ -59,7 +67,7 @@ footer {
     footer {
         flex-direction: row;
         justify-content: space-evenly;
-    }
+        }
 
     .box {
         width: 370px;

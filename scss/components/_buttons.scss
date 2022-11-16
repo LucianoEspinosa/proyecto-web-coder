@@ -1,7 +1,6 @@
 // boton de caja1 index
 .caja1__boton {
     align-self: flex-end;
-    font-family: $tipo-primaria;
     font-size: 1.1rem;
     padding: 5px 10px;
     margin-top: 20px;
@@ -28,7 +27,6 @@
 
 //boton de tarjeta productos
 .productos__tarjeta__boton {
-    font-family: $tipo-primaria;
     font-size: 1.1rem;
     padding: 5px 10px;
     margin-top: 20px;
@@ -48,7 +46,6 @@
     width: 100%;
     height: 40px;
     margin-bottom: 15px;
-    font-family: $tipo-primaria;
     font-size: 1.1rem;
     transition-duration: 150ms;
 
@@ -64,7 +61,6 @@
     width: 100%;
     height: 40px;
     margin-bottom: 15px;
-    font-family: $tipo-primaria;
     font-size: 1.1rem;
     transition-duration: 150ms;
 
@@ -77,13 +73,24 @@
 
 //boton de newsletter footer
 .newsletter__boton {
-    width: 30px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    color: $color-contraste;
+    font-family: $tipo-secundaria;
+    font-size: 0.8rem;
+
+    &:hover {
+        color: $color-primario;
+    }
+
 
 }
 
 //boton de construccion
 .construccion__boton {
-    font-family: $tipo-primaria;
     font-size: 1rem;
     padding: 5px 10px;
     margin-top: 20px;
@@ -91,12 +98,8 @@
     border-radius: 5px;
     background-color: $color-secundario;
     color: $color-contraste;
-
-    &:hover {
-        background-color: $color-primario;
-        color: $color-contraste;
-    }
 }
+
 
 @media (min-width:768px) {
     .construccion__boton {

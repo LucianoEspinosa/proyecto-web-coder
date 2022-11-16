@@ -77,11 +77,11 @@
                 </div>
                 <div class="contacto__label">
                     <label for="asunto">Asunto:</label>
-                    <select name="Asunto" id="asunto">
-                        <option value="Consulta">Consultas</option>
-                        <option value="Reclamo">Reclamos</option>
-                        <option value="sugerencia">Sugerencias</option>
-                        <option value="otro">Otro</option>
+                    <select class="contacto__select" name="Asunto" id="asunto">
+                        <option class="contacto__select" value="Consulta">Consultas</option>
+                        <option class="contacto__select" value="Reclamo">Reclamos</option>
+                        <option class="contacto__select" value="sugerencia">Sugerencias</option>
+                        <option class="contacto__select" value="otro">Otro</option>
                     </select>
                 </div>
                 <div class="contacto__label">
@@ -120,7 +120,7 @@
 
         <div class="box">
             <h3 class="box__titulo">Newsletter</h3>
-            <p class="box__texto">Suscribase para recibir todas las novedades de InjectNow.</p>
+            <p class="box__texto">Suscribase para recibir todas las novedades.</p>
             <form class="newsletter">
                 <input class="newsletter__nombre" type="text" name="nombre" placeholder="Nombre*" id="newsletter"
                     required>
@@ -128,7 +128,7 @@
                     required>
                 <input class="newsletter__email" type="email" name="email" placeholder="Casilla de email*"
                     id="newsletter" required>
-                <input type="submit" value="Enviar"></input>
+                <input class="newsletter__boton" type="submit" value="Enviar"></input>
             </form>
         </div>
     </footer>

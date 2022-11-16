@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: $tipo-primaria;
+}
+
 ul,
 ol {
     list-style: none;
@@ -12,11 +16,10 @@ ol {
 
 a {
     text-decoration: none;
-    }
+}
 
 p {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
     line-height: normal;
 }
 
@@ -29,7 +32,6 @@ input {
     }
 }
 
-
 h1,
 h2,
 h3,
@@ -40,21 +42,17 @@ h6 {
     margin-bottom: 0;
     font-weight: 600;
     line-height: normal;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 button,
 input,
 optgroup,
 select,
-textarea {
-
-    font-family: 'Times New Roman', Times, serif;
-    font-size: small;
-    line-height: normal;
+textarea,
+{
+font-size: small;
+line-height: normal;
 }
-
-
 
 @font-face {
     font-family: kollektif;

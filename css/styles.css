@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: kollektif;
+}
+
 ul,
 ol {
   list-style: none;
@@ -15,7 +19,6 @@ a {
 
 p {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
   line-height: normal;
 }
 
@@ -37,7 +40,6 @@ h6 {
   margin-bottom: 0;
   font-weight: 600;
   line-height: normal;
-  font-family: "Times New Roman", Times, serif;
 }
 
 button,
@@ -45,7 +47,6 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Times New Roman", Times, serif;
   font-size: small;
   line-height: normal;
 }
@@ -56,7 +57,6 @@ textarea {
 }
 .caja1__boton {
   align-self: flex-end;
-  font-family: kollektif;
   font-size: 1.1rem;
   padding: 5px 10px;
   margin-top: 20px;
@@ -79,7 +79,6 @@ textarea {
   }
 }
 .productos__tarjeta__boton {
-  font-family: kollektif;
   font-size: 1.1rem;
   padding: 5px 10px;
   margin-top: 20px;
@@ -97,7 +96,6 @@ textarea {
   width: 100%;
   height: 40px;
   margin-bottom: 15px;
-  font-family: kollektif;
   font-size: 1.1rem;
   transition-duration: 150ms;
 }
@@ -111,7 +109,6 @@ textarea {
   width: 100%;
   height: 40px;
   margin-bottom: 15px;
-  font-family: kollektif;
   font-size: 1.1rem;
   transition-duration: 150ms;
 }
@@ -122,21 +119,26 @@ textarea {
 }
 
 .newsletter__boton {
-  width: 30px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+  font-family: montserrat;
+  font-size: 0.8rem;
+}
+.newsletter__boton:hover {
+  color: rgb(0, 74, 173);
 }
 
 .construccion__boton {
-  font-family: kollektif;
   font-size: 1rem;
   padding: 5px 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: grey;
-  color: white;
-}
-.construccion__boton:hover {
-  background-color: rgb(0, 74, 173);
   color: white;
 }
 
@@ -168,7 +170,6 @@ textarea {
   text-decoration: underline;
   padding-bottom: 20px;
   font-size: 1.8rem;
-  font-family: kollektif;
   font-weight: 400;
 }
 .productos__tarjeta__img {
@@ -202,7 +203,6 @@ header {
 .link {
   color: white;
   font-size: 1.1rem;
-  font-family: kollektif;
   transition-duration: 100ms;
 }
 .link:hover {
@@ -238,15 +238,15 @@ footer {
   text-align: center;
   padding: 5px;
   color: white;
-  font-family: kollektif;
   border-bottom: 2px solid white;
 }
 .box__texto {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 400;
   text-align: center;
   padding: 5px;
   color: white;
+  font-family: montserrat;
 }
 
 .redes {
@@ -264,13 +264,23 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1px;
+  gap: 3px;
 }
 .newsletter__nombre {
   width: 150px;
+  height: 30px;
+  border: none;
+  color: black;
+  font-family: montserrat;
+  font-size: 0.8rem;
 }
 .newsletter__email {
-  width: 262px;
+  width: 240px;
+  height: 30px;
+  border: none;
+  color: black;
+  font-family: montserrat;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 768px) {
@@ -339,7 +349,6 @@ footer {
   padding: 5px;
   background-color: grey;
   color: white;
-  font-family: kollektif;
 }
 .caja3:hover {
   background-color: rgb(0, 74, 173);
@@ -498,10 +507,9 @@ footer {
   height: fit-content;
   padding: 20px 30px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   background-color: rgb(0, 74, 173);
   box-shadow: 7px 13px 37px black;
-  font-family: kollektif;
   color: white;
 }
 .contacto__titulo {
@@ -511,7 +519,6 @@ footer {
   border-bottom: 2px solid white;
   font-size: 1.6rem;
   color: white;
-  font-family: kollektif;
   font-weight: 400;
 }
 .contacto__input {
@@ -519,23 +526,31 @@ footer {
   margin-bottom: 15px;
   border: 1px solid grey;
   padding: 10px;
-  font-family: kollektif;
+  font-size: 0.9rem;
 }
 .contacto__cliente {
   text-align: center;
   margin: 15px 0px 15px 0px;
 }
+.contacto__select {
+  background-color: white;
+  border: 1px solid grey;
+  width: 150px;
+  height: 25px;
+  font-size: 0.9rem;
+}
 .contacto__textArea {
   width: 100%;
   max-height: 175px;
   border: 1px solid grey;
-  font-family: kollektif;
+  font-size: 0.9rem;
 }
 .contacto__textArea:focus {
   outline: none;
 }
 .contacto__label {
   margin: 15px 0px 15px 0px;
+  font-size: 0.9rem;
 }
 
 .containClientes {
@@ -571,7 +586,6 @@ footer {
   margin-bottom: 15px;
   border: 1px solid grey;
   padding: 10px;
-  font-family: kollektif;
 }
 .clientes__link {
   font-family: montserrat;

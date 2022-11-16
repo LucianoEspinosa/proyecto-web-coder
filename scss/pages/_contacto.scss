@@ -9,10 +9,9 @@
     height: fit-content;
     padding: 20px 30px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
-    font-family: $tipo-primaria;
     color: $color-contraste;
 
     &__titulo {
@@ -22,7 +21,6 @@
         border-bottom: 2px solid $color-contraste;
         font-size: 1.6rem;
         color: $color-contraste;
-        font-family: $tipo-primaria;
         font-weight: 400;
 
     }
@@ -32,7 +30,7 @@
         margin-bottom: 15px;
         border: 1px solid $color-secundario;
         padding: 10px;
-        font-family: $tipo-primaria;
+        font-size: 0.9rem;
     }
 
     &__cliente {
@@ -41,17 +39,27 @@
 
     }
 
+    &__select {
+        background-color: $color-contraste;
+        border: 1px solid $color-secundario;
+        width: 150px;
+        height: 25px;
+        font-size: 0.9rem;
+    }
+
     &__textArea {
         width: 100%;
         max-height: 175px;
         border: 1px solid $color-secundario;
-        font-family: $tipo-primaria;
-        &:focus{
+        font-size: 0.9rem;
+
+        &:focus {
             outline: none;
         }
     }
 
     &__label {
         margin: 15px 0px 15px 0px;
+        font-size: 0.9rem;
     }
 }

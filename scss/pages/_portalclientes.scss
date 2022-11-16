@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
 .clientes {
     @include flexcolumn;
     align-items: center;
@@ -13,46 +14,50 @@
     margin-bottom: 50px;
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
-    
-    
-&__titulo {
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid $color-contraste;
-    font-size: 1.5rem;
-    color: $color-contraste;
-    font-weight: 400;
-    font-family: $tipo-secundaria;
-}
 
-&__input {
-    width: 100%;
-    margin-bottom: 15px;
-    border: 1px solid $color-secundario;
-    padding: 10px;
-    font-family: $tipo-primaria;
-}
-&__link {
-    font-family: $tipo-secundaria;
-    color: $color-contraste;
-    &:hover{
-        color: $color-sombras;
+
+    &__titulo {
+        text-align: center;
+        height: 40px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid $color-contraste;
+        font-size: 1.5rem;
+        color: $color-contraste;
+        font-weight: 400;
+        font-family: $tipo-secundaria;
+    }
+
+    &__input {
+        width: 100%;
+        margin-bottom: 15px;
+        border: 1px solid $color-secundario;
+        padding: 10px;
+    }
+
+    &__link {
+        font-family: $tipo-secundaria;
+        color: $color-contraste;
+        
+
+        &:hover {
+            color: $color-sombras;
+        }
+    }
+
+    &__img {
+        width: 200px;
+        padding: 10px;
     }
 }
 
-&__img {
-    width: 200px;
-    padding: 10px;
-}
-}
-@media(min-width:768px){
-    .containClientes{
-        min-height:calc(100vh - 221px - 168px);
+@media(min-width:768px) {
+    .containClientes {
+        min-height: calc(100vh - 221px - 168px);
     }
 }
+
 @media (min-width:1400px) {
-    .containClientes{
+    .containClientes {
         min-height: calc(100vh - 221px - 157px);
     }
 }
