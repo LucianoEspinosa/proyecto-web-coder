@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: kollektif;
+  src: url(../fonts/kollektif.ttf);
+}
 body {
   font-family: kollektif;
 }
@@ -51,10 +55,6 @@ textarea {
   line-height: normal;
 }
 
-@font-face {
-  font-family: kollektif;
-  src: url(../fonts/kollektif.ttf);
-}
 .caja1__boton {
   align-self: flex-end;
   font-size: 1.1rem;
@@ -538,7 +538,6 @@ footer {
   font-size: 1rem;
 }
 .contacto__input:focus {
-  outline: none;
   box-shadow: 7px 13px 37px black;
 }
 .contacto__cliente {
@@ -564,8 +563,10 @@ footer {
   border-radius: 5px;
 }
 .contacto__textArea:focus {
-  outline: none;
   box-shadow: 7px 13px 37px black;
+}
+.contacto__check {
+  color: grey;
 }
 .contacto div {
   margin: 15px 0px 15px 0px;
