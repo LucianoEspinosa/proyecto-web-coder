@@ -56,41 +56,40 @@
     <main class="containContacto">
         <section class="contacto">
             <h1 class="contacto__titulo">Formulario de contacto</h1>
-            <form name="contacto" method="POST" data-netlify="true">
+            <form class="contacto__formulario" name="contacto" method="POST" data-netlify="true">
                 <div>
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre" class="contacto__label">Nombre</label>
                     <input class="contacto__input" type="text" name="nombre" id="nombre" placeholder="Nombre*" required>
 
-                    <label for="apellido">Apellido</label>
+                    <label for="apellido" class="contacto__label">Apellido</label>
                     <input class="contacto__input" type="text" name="apellido" id="apellido" placeholder="Apellido*"
                         required>
-                    <label for="email">Email</label>
+                    <label for="email" class="contacto__label">Email</label>
                     <input class="contacto__input" type="email" name="email" id="email" placeholder="Email*" required>
                 </div>
                 <div class="contacto__cliente">
-                    <label for="">Soy cliente</label>
-                    <input type="radio" name="cliente" value="si">
-                    <label for="">No soy cliente</label>
-                    <input type="radio" name="cliente" value="no">
+                    <label class="contacto__label" for="cliente">Soy cliente</label>
+                    <input type="radio" class="contacto__cliente__radio" name="cliente" value="si" id="cliente">
+                    <label class="contacto__label" for="no-cliente">No soy cliente</label>
+                    <input type="radio" class="contacto__cliente__radio" name="cliente" value="no" id="no-cliente">
                 </div>
 
-                </div>
-                <div class="contacto__label">
-                    <label for="asunto">Asunto:</label>
+                <div>
+                    <label for="asunto" class="contacto__label">Asunto:</label>
                     <select class="contacto__select" name="Asunto" id="asunto">
-                        <option class="contacto__select" value="Consulta">Consultas</option>
-                        <option class="contacto__select" value="Reclamo">Reclamos</option>
-                        <option class="contacto__select" value="sugerencia">Sugerencias</option>
-                        <option class="contacto__select" value="otro">Otro</option>
+                        <option value="Consulta">Consultas</option>
+                        <option value="Reclamo">Reclamos</option>
+                        <option value="sugerencia">Sugerencias</option>
+                        <option value="otro">Otro</option>
                     </select>
                 </div>
-                <div class="contacto__label">
-                    <label for="mensaje">Mensaje</label>
+                <div>
+                    <label for="mensaje" class="contacto__label">Mensaje</label>
                     <textarea class="contacto__textArea" name="mensaje" id="mensaje" cols="30" rows="10"
                         placeholder="Escriba su consulta aqui"></textarea>
                 </div>
-                <div class="contacto__label">
-                    <label for="novedades">Desea recibir novedades?</label>
+                <div>
+                    <label for="novedades" class="contacto__label">Desea recibir novedades?</label>
                     <input type="checkbox" name="novedades" value="si-novedades" id="novedades">
                 </div>
                 <input class="contacto__boton" type="submit" value="Enviar">
@@ -120,7 +119,7 @@
 
         <div class="box">
             <h3 class="box__titulo">Newsletter</h3>
-            <p class="box__texto">Suscribase para recibir todas las novedades.</p>
+            <p class="box__texto">Suscríbase para recibir todas las novedades.</p>
             <form class="newsletter">
                 <input class="newsletter__nombre" type="text" name="nombre" placeholder="Nombre*" id="newsletter"
                     required>

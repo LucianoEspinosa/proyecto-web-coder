@@ -37,7 +37,7 @@
 
 @media (min-width:768px) {
     .construccion {
-        min-height: calc(100vh - 221px - 168px);
+        min-height: calc(100vh - 222px - 168px);
         align-items: center;
 
         &__titulo {
@@ -76,6 +76,6 @@
 }
 @media (min-width:1400px) {
     .construccion {
-        min-height: calc(100vh - 221px - 157px);
+        min-height: calc(100vh - 222px - 160px);
     }
 }
