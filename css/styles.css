@@ -566,7 +566,7 @@ footer {
   box-shadow: 7px 13px 37px black;
 }
 .contacto__check {
-  color: grey;
+  accent-color: grey;
 }
 .contacto div {
   margin: 15px 0px 15px 0px;
