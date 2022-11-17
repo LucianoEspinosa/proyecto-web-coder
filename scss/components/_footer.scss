@@ -2,7 +2,7 @@ footer {
     @include flexcolumn;
     background-color: $color-secundario;
     padding-bottom: 10px;
-    }
+}
 
 .box {
     max-width: 100%;
@@ -67,7 +67,7 @@ footer {
     footer {
         flex-direction: row;
         justify-content: space-evenly;
-        }
+    }
 
     .box {
         width: 370px;

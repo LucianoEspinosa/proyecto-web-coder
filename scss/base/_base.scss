@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: kollektif;
+    src: url(../fonts/kollektif.ttf);
+}
 
 body {
     font-family: $tipo-primaria;
@@ -53,7 +57,3 @@ font-size: small;
 line-height: normal;
 }
 
-@font-face {
-    font-family: kollektif;
-    src: url(../fonts/kollektif.ttf);
-}

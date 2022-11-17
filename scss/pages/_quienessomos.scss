@@ -3,7 +3,6 @@
     padding: 30px 5px;
     gap: 50px;
     justify-content: center;
-    ;
 
     &__cajas {
         @include flexcolumn;
@@ -43,5 +42,5 @@
     &__mapa {
         width: 100%;
         height: 450px;
-        }
+    }
 }

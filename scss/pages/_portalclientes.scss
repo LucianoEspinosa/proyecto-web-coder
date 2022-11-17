@@ -15,7 +15,6 @@
     background-color: $color-primario;
     box-shadow: 7px 13px 37px $color-sombras;
 
-
     &__titulo {
         text-align: center;
         height: 40px;
@@ -37,7 +36,6 @@
     &__link {
         font-family: $tipo-secundaria;
         color: $color-contraste;
-        
 
         &:hover {
             color: $color-sombras;
